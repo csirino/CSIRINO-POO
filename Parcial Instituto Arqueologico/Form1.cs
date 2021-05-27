@@ -75,6 +75,14 @@ namespace Parcial_Instituto_Arqueologico
             // agrego lista
             listBoxArqueologo.Items.Add(arqueologo);
             listBoxArqueologo.DisplayMember = "varApellido";
+            
+            // limpio campos
+            textBoxNombre.Text="";
+            textBoxApellido.Text="";
+            //dateTimePickerNacimiento.Value=DateTime();
+            //dateTimePickerDeceso.Value="";
+
+
         }
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
